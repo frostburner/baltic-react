@@ -1,0 +1,112 @@
+body {
+    font-family: "Montserrat", sans-serif; 
+  }
+  
+  .bg-vid {
+    background-size: cover;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(8px) brightness(60%);
+  }
+  .slogan {
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  .container {
+    background-color:rgba(238,225,186,0.1);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    margin: 70px auto;
+    width: 35%;
+    max-width: 700px;
+  }
+  
+  .recipe-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .recipe {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(156, 99, 79);
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .recipe img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .recipe-details {
+    padding: 20px;
+    color: black;
+  }
+  
+  .recipe h2 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .recipe p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Button Styles */
+  .recipe-button {
+    background-color: #894e3f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  .recipe-button:hover {
+    background-color: #6d3e32;
+  }
+  
+  .back-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    background-color: rgba(156, 99, 79,0.4);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #6d3e32;
+  }
+  
+  
+  /* for mobile */
+  @media only screen and (max-width: 600px) and (min-aspect-ratio: 16/9) {
+    .bg-vid, .bg-vid-latvia {
+      background-size: cover;
+      width: 100%;
+      height: auto;
+    }
+  }
+  
